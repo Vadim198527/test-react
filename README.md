@@ -1,45 +1,104 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2><a href='https://map-react-ac98d.firebaseapp.com/'>Ссылка на сайт с проектом (версия на React)</a></h2
+<p>Drag and drop резализовывал сам, без библиотеки. Отттго много кода</p>  
+<p>Тестирование сейчас в процессе активного освоения. Но пока покрыть полноценно код тестами не готов</p>
+<hr/>
 
-## Available Scripts
 
-In the project directory, you can run:
+<blockquote>
+Расскажите, чем, на ваш взгляд, отличается хорошее клиентское приложение от
+плохого с точки зрения
+  <ul>
+    <li>
+      пользователя;
+    </li>
+    <li>
+      менеджера проекта;
+    </li>
+    <li>
+      дизайнера;
+    </li>
+    <li>
+      верстальщика;
+    </li>
+    <li>
+      серверного программиста.
+    </li>
+  </ul>
+</blockquote>
+Для пользователя - удобство использования, скорость работы,<br/>
+для менеджера проекта - масштабируемость,<br/>
+для дизайнера - хорошо выполненный и фнукциональный дизайн,<br/>
+для верстальщика - возможность переиспользовать компоненты, единообразность подхода,<br/>
+для программиста - продуманность логики<br/>
 
-### `npm start`
+<blockquote>
+   Опишите основные особенности разработки крупных многостраничных сайтов, функциональность которых может меняться в процессе    реализации и поддержки.
+   Расскажите о своем опыте работы над подобными сайтами: какие подходы, инструменты и технологии вы применяли на практике, с    какими проблемами сталкивались и как их решали.
+</blockquote>  
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Мой опыт разработки крупных многостраничных сайтов невелик. Насколько могу судить, необходимо особенно тщетельно
+продумывать структуру и механизмы изменений и доработок.
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+<blockquote>
+При разработке интерфейсов с использованием компонентной архитектуры часто
+используются термины Presentational Сomponents и Сontainer Сomponents. Что
+означают данные термины? Зачем нужно такое разделение, какие у него есть
+плюсы и минусы?
+</blockquote>
+Если я правильно понял - это аналог деления на "Умные" и "Глупые" компоненты.<br/>
+"Умные" знают о состоянии приложения, хранят его в state или подключены к Redux.<br/>
+"Глупые" - напротив, знают только то, что им передали в props.<br/>
+Обычно "Умные" хранятся в папке containers, а "Глупые" в сomponents<br/>
 
-### `npm test`
+Плюсы: Лучшее разделение в решении проблем.
+Лучше повторное использование.<br/>
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Минусы: Больше времени идет на анализ и организацию структуры компонентов<br/>
 
-### `npm run build`
+<blockquote>
+Как устроено наследование в JS? Расскажите о своем опыте реализации JSнаследования
+без использования фреймворков.
+</blockquote>    
+Наследование в JS прототипное. Если в свойстве {Объект1}._proto_ указать некоторый другой объект, то Объект1
+становится наследником другого объекта, и получает возможность пользоваться его методами.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+<blockquote>  
+Какие библиотеки можно использовать для написания тестов end-to-end во
+фронтенде? Расскажите о своем опыте тестирования веб-приложений.
+</blockquote>    
+Тестирование сейчас находится в процессе активного освоения. Думаю, очень скоро смогу ответить на этот вопрос)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<blockquote>  
+Вам нужно реализовать форму для отправки данных на сервер, состоящую из
+нескольких шагов. В вашем распоряжении дизайн формы и статичная верстка, в
+которой не показано, как форма должна работать в динамике. Подробного
+описания, как должны вести себя различные поля в зависимости от действий
+пользователя, в требованиях к проекту нет. Ваши действия?
+</blockquote>    
+Постараюсь уточнить, каково поведение формы. Если уточнить не получается,
+реализую базовый функционал (простейшие валидации и т.п.), возможно подойдет этот вариант.
+Когда появится возможность уточнить, доработаю так, как надо.
 
-### `npm run eject`
+<blockquote>  
+Расскажите, какие инструменты помогают вам экономить время в процессе
+написания, проверки и отладки кода.
+</blockquote>    
+Глубоко убежден, что лучший способ экономии времени - это тщательное продумывание структуры модели данных и поведения программы.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<blockquote>  
+Какие ресурсы вы используете для развития в профессиональной сфере? Приведите
+несколько конкретных примеров (сайты, блоги и так далее).
+Какие ещё области знаний, кроме тех, что непосредственно относятся к работе,
+вам интересны?
+</blockquote>    
+Tproger, Toster, habra, некоторые испаноязычные ресурсы, читаю книги по интересным мне технологиям.
+Также увлекаюсь матэ, боксом, хорошей литературой, верховой ездой.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<blockquote>  
+Расскажите нам немного о себе и предоставьте несколько ссылок на последние
+работы, выполненные вами.
+</blockquote>    
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# map-native
+Меня зовут Вадим. Уже много лет живу в Аргентине. Окончил МГТУ им. Баумана в 2007 году.
+Люблю животных. Много работаю, стараюсь это делать хорошо.
