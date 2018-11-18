@@ -1,0 +1,7 @@
+export const SET_YMAPS = 'SET_YMAPS'
+export const SET_MAP = 'SET_MAP'
+export const SET_POINTS = 'SET_POINTS'
+export const ADD_POINT = 'ADD_POINT'
+export const SET_CURRENT_ID = 'SET_CURRENT_ID'
+export const SET_CURRENT_POINT_ID = 'SET_CURRENT_POINT_ID'
+export const ADD_POLYLINE = 'ADD_POLYLINE'

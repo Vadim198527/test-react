@@ -1,0 +1,14 @@
+.draggable {
+    position: relative;
+    height: 50px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    padding: 5px;
+    cursor: pointer;
+    list-style: none;
+    transition: top 0.5s;
+}
+
+.draggable.avatar {
+    transition: top 0s;
+}
