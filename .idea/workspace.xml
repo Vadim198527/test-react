@@ -1,34 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="989343ea-bfb6-41cf-a42f-8b6d1c7c1ece" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Content.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Content/Content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Map.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map/Map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Point/Point.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Point/Point.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PointCreater/PointCreater.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PointCreater/PointCreater.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PointsManager/PointsManager.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PointsManager/PointsManager.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PointsManager/dnd/DragInfo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PointsManager/dnd/DragItem.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/actionTypes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/actions/actions.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/reducer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
-    </list>
+    <list default="true" id="989343ea-bfb6-41cf-a42f-8b6d1c7c1ece" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -362,12 +335,12 @@
       <workItem from="1542409972355" duration="30512000" />
       <workItem from="1542493728621" duration="14706000" />
       <workItem from="1542518188723" duration="15284000" />
-      <workItem from="1542553693360" duration="14221000" />
+      <workItem from="1542553693360" duration="14805000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="119955000" />
+    <option name="totallyTimeSpent" value="120539000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
